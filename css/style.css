@@ -1,0 +1,203 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* -------------------- header area -- */
+header{
+    background-color: orange;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.flexible{
+    display: flex;
+}
+p{
+    line-height: 25px;
+    font-size: 17px;
+}
+.color-title{
+    color: #575757;
+    
+}
+.logo{
+    width: 30%;
+}
+.logo h1{
+    margin-top: 24px;
+    font-size: 30px;
+}
+.green-color{
+    color: green;
+}
+.menu{
+    width: 70%;
+}
+.menu ul{
+    margin-top: 32px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    color: black;
+    font-family: sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+/* --------------- header area end--- */
+/* --------------- banner area --- */
+.banner{
+    padding: 10px 0 35px 0;
+}
+.box{
+    width: 50%;
+}
+.banner-left{
+    padding-top: 100px;
+}
+.banner-left p{
+    margin-bottom: 30px;
+}
+.banner-right{}
+.buttton-link{
+    text-decoration:none;    
+    padding: 12px 22px;
+    background-color: orange;
+    border-radius: 30px;
+    font-weight: 700;
+    color: black;
+    background-image: linear-gradient(tomato, orange);
+}
+.banner-right img {
+    width: 90%;
+    margin-left: 75px;
+}
+/* --------------- banner area end--- */
+/* --------about area------ */
+.about{
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    padding: 50px 0 25px 0
+}
+.about-left{
+    width: 40%;
+}
+.about-left img{
+    width: 100%;
+}
+.about-right {
+    width: 65%;
+    margin-top: 25px;
+    margin-left: 15%;
+}
+.about-right P {
+    margin: 26PX 0 37px 0;
+}
+/* -----------about area aend ----- */
+/* -- ----------Recipi area ---------- -- */
+.recipi{
+    padding: 30px 0;
+}
+.recipi-top{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.recipi-bottom{
+    padding: 0 1%;
+    margin-top: 30px;
+}
+.single-box{
+    padding: 15px;
+    box-shadow: 0 0 19px 7px #332b2b6b;
+    width: 30%;
+    border-radius: 15px;
+}
+.single-box img {
+    width: 100%;
+}
+#single-box-2{
+    margin: 0 4%;
+}
+/* -- ----------Recipi area end---------- -- */
+/* ----------subscribe area---------- */
+.subscrib{
+    margin: 60px 0;
+}
+.flexible-pad{
+    box-shadow: 0 0 19px 7px #332b2b6b;
+    padding: 70px 0;
+
+}
+.subscribe-single-box{
+    width: 30%;
+    padding: 0 1%;
+    text-align: center;
+}
+#subscribe-single-box-2{
+    margin: 0 4%;
+}
+.subscribe-single-box h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.subscribe-single-box h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ----------subscribe area end---------- */
+/* -----------form area -------------- */
+/* -----------form area end-------------- */
+.form{
+    background-color: #575757;  
+    padding: 50px;
+}
+.form-area{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.form-area h1 {
+    color: orange;
+}
+.form-area input{
+    display: block;
+    width: 580px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;;
+}
+.form-area input:focus{
+    outline: 0;
+}
+.botton-submit{
+    width: 200px; 
+    background-image: linear-gradient(tomato, orange);
+    font-weight: 700;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid white;
+}
+/* ---------fotter area---------- */
+footer{
+    background-color: orange;
+    padding: 5px 0 20px 0;
+}
+.footer-area{
+    text-align: center;
+}
+/* ---------fotter area end---------- */
